@@ -1,0 +1,26 @@
+@import "utils/grids-core.wxss";
+@import "utils/grids-units.wxss";
+@import "utils/grids-responsive.wxss";
+
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+} 
+
+.pure-g {
+  width: 90%;
+}
+
+input {
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  color: #ccc;
+}
